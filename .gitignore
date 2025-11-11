@@ -58,5 +58,19 @@ condaenv*
 # Notebook checkpoints
 .ipynb_aml_checkpoints
 
-# Images
+# Ignore all image files
 *.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.gif
+
+# But keep images in docs/images/
+!docs/images/
+!docs/images/*.png
+!docs/images/*.jpg
+!docs/images/*.jpeg
+!docs/images/*.tif
+!docs/images/*.tiff
+!docs/images/*.gif
