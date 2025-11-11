@@ -1,0 +1,10 @@
+name: tree_modeling
+channels:
+  - conda-forge
+  - anaconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip==23.0
+  - poetry=2.1.3  
+

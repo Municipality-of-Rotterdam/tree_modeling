@@ -1,0 +1,11 @@
+name: tree_modeling
+channels:
+  - conda-forge
+  - anaconda
+  - nodefaults
+dependencies:
+  - chardet=5.2.0
+  - python=3.11
+  - pip==23.0
+  - pip:
+      - tree_modeling==<PACKAGE_VERSION>
