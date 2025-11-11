@@ -1,5 +1,3 @@
-# PointCloud_Tree_Modelling by Amsterdam Intelligence, GPL-3.0 license
-
 import os
 import stat
 from importlib.resources import files
@@ -15,7 +13,8 @@ class Paths:
     @staticmethod
     def get_adtree() -> str:
         # Locate AdTree directory relative to the package
-        adtree_path = files("adtree").joinpath("Release/bin/AdTree")
+        logger.info("Custom install of tree_modeling. Will get AdTree path from the repository.")
+        adtree_path = files("tree_modeling").joinpath("../../AdTree/bin/AdTree")
 
         adtree_path_str = str(adtree_path)
 

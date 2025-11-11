@@ -77,12 +77,26 @@ This package integrates:
 
 ### Installing AdTree
 
-Follow the setup in the (Adtree)[https://github.com/tudelft3d/AdTree] repo and ensure the executable is available to `Paths.get_adtree()`.
+A modified version of the (Adtree)[https://github.com/tudelft3d/AdTree] repo is added in the 'AdTree' folder.
 
-In addition, you may need to run the following:
+Make sure the requirements for AdTree are installed by running
 
 ```bash
 sudo apt-get install libboost-all-dev libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
+```
+
+After that, compile AdTree by navigating to the AdTree dir and running
+
+```bash
+cmake -DCMAKE_BUILD_TYPE=Release .
+make
+```
+
+Verify that the executable is available to `Paths.get_adtree()`:
+
+```python
+from tree_modeling.config import Paths
+Paths.get_adtree()
 ```
 
 ---
