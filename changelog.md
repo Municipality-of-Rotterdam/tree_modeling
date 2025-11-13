@@ -1,37 +1,19 @@
-# Change Log: pkg_tree_modeling
+# Change Log: tree_modeling
 All notable changes to this repo will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this repo adheres to [Semantic Versioning](http://semver.org/).
 
-Package set-up created with cookiecutter template version 0.3.1
+Package set-up created with raptor template version 0.3.1
 
-## [Unreleased] - yyyy-mm-dd
-
-Here we write upgrading notes for brands. It's a team effort to make them as
-straightforward as possible. Fill this in as repo gets updates with added, changed, fixed, and removed during development. If needed potential depreciations or security changes can be added.
-
-### Added
-- (example) Readme with instructions for first development
-- (example) 'sample()' function to clean data in  exploration.py
-### Changed
-- (example) not applicatble
-### Fixed
-- (example) not applicatble
----
-## Template (copy paste template below):
 ---
 
-## [#.#.#] - yyyy-mm-dd
+## [0.0.1] - 2025-11-11
 
 ### **Release Highlights**
-Here we would have the update steps for 0.0.1 for people to follow.
+First version of published package.
 
 ### **Added**
-- (fill in)
-### **Changed**
-- (fill in)
-### **Fixed**
-- (fill in)
+- Codebase up until first publishing.
 ### **Removed**
-- (fill in)
+- Unnecessary template files.

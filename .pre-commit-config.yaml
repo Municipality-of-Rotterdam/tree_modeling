@@ -3,7 +3,6 @@ exclude:
         lib/|
         notebooks/|
         tests/|
-        devops_pipelines/|
         docs/
     )
 
@@ -24,7 +23,8 @@ repos:
     rev: v1.13.0
     hooks:
     -   id: mypy
-        args: [--config-file=./pyproject.toml]
+        args: [--no-strict-optional, --ignore-missing-imports, --show-error-codes, "--follow-imports", "skip"]
+        exclude: ^lib/|^notebooks/|^tests/
 
 -   repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.8.1
