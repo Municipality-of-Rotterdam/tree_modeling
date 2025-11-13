@@ -68,9 +68,3 @@ condaenv*
 
 # But keep images in docs/images/
 !docs/images/
-!docs/images/*.png
-!docs/images/*.jpg
-!docs/images/*.jpeg
-!docs/images/*.tif
-!docs/images/*.tiff
-!docs/images/*.gif
