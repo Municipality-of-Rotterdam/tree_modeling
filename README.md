@@ -77,7 +77,7 @@ This package integrates:
 
 ### Installing AdTree
 
-A modified version of the (Adtree)[https://github.com/tudelft3d/AdTree] repo is added in the 'AdTree' folder.
+A modified version of the [Adtree](https://github.com/tudelft3d/AdTree) repo is added in the 'AdTree' folder.
 
 Make sure the requirements for AdTree are installed by running
 
